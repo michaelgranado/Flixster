@@ -1,14 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Flixster" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Flixster" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/ActionBarColor</item>
+        <item name="colorPrimaryVariant">@color/ActionBarColor</item>
+        <item name="colorOnPrimary">@color/ActionBarColor</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/ActionBarColor</item>
+        <item name="colorSecondaryVariant">@color/ActionBarColor</item>
+        <item name="colorOnSecondary">@color/ActionBarColor</item>
+        <item name="titleTextColor">@color/ActionBarTitleColor</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
